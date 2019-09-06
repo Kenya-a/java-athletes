@@ -16,5 +16,13 @@ public class Main
         injector = new HockeyAthleteCreationInjector();
         app = injector.getProcess();
         app.display("string", "strings");
+
+        // Create a Rugby Athlete
+        injector = new RugbyAthleteCreationInjector();
+        app = injector.getProcess();
+        app.display("string", "strings");
+        
+
+
     }
 }
