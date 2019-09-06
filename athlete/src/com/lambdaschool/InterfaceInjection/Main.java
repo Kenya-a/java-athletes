@@ -21,7 +21,13 @@ public class Main
         injector = new RugbyAthleteCreationInjector();
         app = injector.getProcess();
         app.display("string", "strings");
-        
+
+        // Create a Baseball Athlete
+        injector = new BaseballAthleteCreationInjector();
+        app = injector.getProcess();
+        app.display("string", "strings");
+
+
 
 
     }
