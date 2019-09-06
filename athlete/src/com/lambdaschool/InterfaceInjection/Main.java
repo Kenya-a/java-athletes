@@ -11,5 +11,10 @@ public class Main
         injector = new TrackAthleteCreationInjector();
         app = injector.getProcess();
         app.display("string", "strings");
+
+        // Create a Hockey Athlete
+        injector = new HockeyAthleteCreationInjector();
+        app = injector.getProcess();
+        app.display("string", "strings");
     }
 }
